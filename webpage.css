@@ -30,11 +30,10 @@ body {
 
 /* -----------------------BANNER-----------------------*/
 #banner {
-    background-color: rgba(238, 238, 238, 0.274);
-    padding-top: 2%;
+    background-color: rgba(238, 238, 238, 0.15);
 }
 .header-title {
-    margin-top: 100px;
+    margin-top: 25%;
     color: white;
 }
 .header-p {
@@ -45,4 +44,10 @@ body {
     z-index: -1;
     position: absolute;
     opacity: 100%;
+}
+
+/* -----------------------Content-----------------------*/
+#content {
+    background-color: rgba(238, 238, 238, 0.15);
+    padding-top: 100px;
 }
