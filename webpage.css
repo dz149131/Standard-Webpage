@@ -18,6 +18,10 @@ body {
     color: black;
 }
 
+.navbar-brand {
+    width: 45px;
+    height: 45px;
+}
 .navbar-nav li {
     padding: 0 10px;
 }
