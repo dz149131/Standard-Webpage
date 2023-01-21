@@ -6,6 +6,7 @@
 
 body {
     font-family: sans-serif;
+    letter-spacing: .05em;
 }
 
 /* -----------------------NAVBAR----------------------- */
@@ -45,6 +46,10 @@ body {
     position: absolute;
     opacity: 100%;
 }
+/* .row {
+    display: flex;
+    align-items: center;
+} */
 
 /* -----------------------Content-----------------------*/
 #content {
