@@ -38,25 +38,41 @@ body {
     background-color: rgba(238, 238, 238, 0.15);
 }
 .header-title {
-    margin-top: 25%;
+    padding-top: 15%; 
     color: white;
+    padding-left: 9%;
 }
 .header-p {
     color: white;
+    padding-top: 5%;
+    padding-left: 10%;
+
 }
 
 #banner-bg {
     z-index: -1;
     position: absolute;
     opacity: 100%;
+    padding: 0;
+    margin: 0;
 }
-/* .row {
-    display: flex;
-    align-items: center;
-} */
+
 
 /* -----------------------Content-----------------------*/
 #content {
-    background-color: rgba(238, 238, 238, 0.15);
+    background-color: rgba(7, 40, 148, 0.45);
+}
+
+#content .container-fluid {
     padding-top: 100px;
+}
+.content-title {
+    padding-top: 15%; 
+    color: white;
+    text-align: center;
+}
+.content-p {
+    color: white;
+    padding-top: 5%;
+    text-align: center;
 }
