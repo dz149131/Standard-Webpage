@@ -30,9 +30,19 @@ body {
 
 /* -----------------------BANNER-----------------------*/
 #banner {
-    background-color: rgb(238, 238, 238);
-    padding-top: 5%;
+    background-color: rgba(238, 238, 238, 0.274);
+    padding-top: 2%;
 }
 .header-title {
     margin-top: 100px;
+    color: white;
+}
+.header-p {
+    color: white;
+}
+
+#banner-bg {
+    z-index: -1;
+    position: absolute;
+    opacity: 100%;
 }
