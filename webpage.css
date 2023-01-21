@@ -76,3 +76,20 @@ body {
     padding-top: 5%;
     text-align: center;
 }
+
+/* -----------------------Services-----------------------*/
+#services {
+    background-color: rgba(7, 40, 148, 0.45);
+    padding-top: 5%;
+}
+.service-img {
+    width: 60%;
+}
+.service-title {
+    padding-top: 5%; 
+    color: white;
+}
+.service-p {
+    color: white;
+    padding: 0 10%;
+}
