@@ -9,7 +9,28 @@
 body {
     font-family: sans-serif;
     letter-spacing: .05em;
-    color: var(--body);
+}
+
+/* -----------------------NAVBAR----------------------- */
+#navbarSupportedContent {
+    justify-content: center;
+}
+.navbar {
+    border-bottom: 1px rgb(179, 179, 179) solid;
+    color: black;
+    background-color: rgb(241, 238, 238);
+}
+
+.navbar-brand {
+    width: 45px;
+    height: 45px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    text-align: center;
 }
 
 /*-----------------------COVER-----------------------  */
@@ -38,30 +59,6 @@ body {
     left: 0;
     background-color: rgba(17, 73, 146, 0.25);
     z-index: -1;
-}
-
-/* -----------------------NAVBAR----------------------- */
-#navbarSupportedContent {
-    justify-content: center;
-}
-.navbar {
-    border-bottom: 1px rgb(179, 179, 179) solid;
-    color: black;
-}
-
-.navbar-brand {
-    width: 45px;
-    height: 45px;
-}
-.navbar-nav li {
-    padding: 0 10px;
-}
-
-.navbar-nav li a{
-    text-align: center;
-}
-
-.form-container {
 }
 
 /* -----------------------BANNER-----------------------*/
