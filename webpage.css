@@ -27,6 +27,7 @@ body {
 .coverRow {
     border-radius: 10px;
     padding: 150px;
+    background-color: rgba(32, 84, 151, 0.2);
 }
 .cover::after {
     content: "";
@@ -38,6 +39,7 @@ body {
     background-color: rgba(17, 73, 146, 0.5);
     z-index: -1;
 }
+
 /* -----------------------NAVBAR----------------------- */
 #navbarSupportedContent {
     justify-content: center;
