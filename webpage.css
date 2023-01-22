@@ -16,8 +16,7 @@ body {
     justify-content: center;
 }
 .navbar {
-    border-bottom: 1px rgb(179, 179, 179) solid;
-    color: black;
+    border-bottom: 1px rgba(163, 163, 163, 0.425) solid;
     background-color: rgb(241, 238, 238);
 }
 
@@ -68,12 +67,12 @@ body {
 .header-title {
     padding-top: 15%; 
     color: white;
-    padding-left: 9%;
+    padding-left: 4%;
 }
 .header-p {
     color: white;
     padding-top: 5%;
-    padding-left: 10%;
+    padding-left: 5%;
 
 }
 
@@ -108,11 +107,13 @@ body {
 /* -----------------------Services-----------------------*/
 #services {
     background-color: rgba(7, 40, 148, 0.45);
-    padding-top: 5%;
+    padding-top: 10%;
     display: flex;
     justify-content: center;
 }
-.services .btn {
+.service-header {
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
 }
 .service-img {
     width: 80%;
