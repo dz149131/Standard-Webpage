@@ -128,12 +128,15 @@ body {
 }
 .card-hover{
     box-shadow: var(--box-shadow);
-    transition: all .35s ease;
+    transition: all .5s ease;
+    text-align: center;
 }
 .card-hover:hover {
     box-shadow: none;
     transform: translateY(5px);
+    background-color: #0d6efd;
 }
-
-
+.card-hover:hover button {
+    background-color: #5496f8;
+}
 /* -----------------------TEST-----------------------*/
