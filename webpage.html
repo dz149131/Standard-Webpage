@@ -21,7 +21,7 @@
 				<div class="container">
 					<a class="navbar-brand" href="#">
 						<img
-							src="webpages Imgs\logo-removebg-preview.png"
+							src="webpageImgs\logo-removebg-preview.png"
 							class="img-fluid"
 						/>BrandLogo</a
 					>
@@ -39,16 +39,22 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="#">Home</a>
+								<a class="nav-link" aria-current="page" href="#cover">cover</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Prints</a>
+								<a class="nav-link" href="#banner">banner</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Gallery</a>
+								<a class="nav-link" href="#content">content</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link" href="#services">services</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">null</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">null</a>
 							</li>
 							<li class="nav-item dropdown">
 								<a
@@ -97,18 +103,18 @@
 		</section>
 
 		<!------------BANNER ------------->
-		<section id="banner">
+		<section id="banner" class="row w-100">
 			<!-------------BANNER BG------------->
-			<div id="banner-bg" class="container-fluid">
-				<img src="webpages Imgs\bannerbg.png" class="img-fluid" />
-			</div>
+			<div id="banner-bg" class="container-fluid"></div>
 			<!---------------BANNER CONTENT--------------->
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-6 banner-img"></div>
+					<div class="col-md-6">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-10">
+								<div class="col-md-12 banner-content">
+									<h6 class="banner-sub">Lorem ipsum</h6>
 									<h1 class="banner-title">SampleText</h1>
 									<p class="banner-p">
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -117,13 +123,18 @@
 										sint numquam tempora dolore, iste libero quibusdam dolorem
 										inventore optio.
 									</p>
-									<div class=""></div>
+									<div class="banner-item">
+										<div class="banner-item-content">
+											<h5 class="banner-item-title">SampleText</h5>
+											<p class="banner-item-p">
+												Lorem ipsum, dolor sit amet consectetur adipisicing
+												elit. Dolorem, quod!
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-7">
-						<img src="webpages Imgs\sampleImg.png" class="img-fluid" />
 					</div>
 				</div>
 			</div>
@@ -134,7 +145,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-4">
-						<img src="webpages Imgs\contentImg-removebg-preview.png" />
+						<img src="webpageImgs\contentImg-removebg-preview.png" />
 					</div>
 					<div class="col-md-4 d-flex flex-column align-items-center">
 						<h1 class="content-title">SampleText</h1>
@@ -147,7 +158,7 @@
 						<button class="btn btn-primary w-50 mt-3">Button</button>
 					</div>
 					<div class="col-md-4">
-						<img src="webpages Imgs\contentImg-removebg-preview.png" />
+						<img src="webpageImgs\contentImg-removebg-preview.png" />
 					</div>
 				</div>
 			</div>
@@ -171,7 +182,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="card-hover">
 							<img
-								src="webpages Imgs\services-removebg-preview.png"
+								src="webpageImgs\services-removebg-preview.png"
 								class="service-img"
 							/>
 							<h4 class="service-title">SampleText</h4>
@@ -185,7 +196,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="card-hover">
 							<img
-								src="webpages Imgs\services-removebg-preview.png"
+								src="webpageImgs\services-removebg-preview.png"
 								class="service-img"
 							/>
 							<h4 class="service-title">SampleText</h4>
@@ -199,7 +210,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="card-hover">
 							<img
-								src="webpages Imgs\services-removebg-preview.png"
+								src="webpageImgs\services-removebg-preview.png"
 								class="service-img"
 							/>
 							<h4 class="service-title">SampleText</h4>
@@ -213,7 +224,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="card-hover">
 							<img
-								src="webpages Imgs\services-removebg-preview.png"
+								src="webpageImgs\services-removebg-preview.png"
 								class="service-img"
 							/>
 							<h4 class="service-title">SampleText</h4>
@@ -227,6 +238,12 @@
 				</div>
 			</div>
 		</section>
+
+		<!-------------CONTACT------------>
+		<section id="contact"></section>
+		<!-------------FOOTER------------>
+		<section id="footer"></section>
+
 		<script src="webpage.js"></script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
