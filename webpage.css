@@ -78,9 +78,8 @@ body {
 .banner-content {
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    margin-left: 25px;
-    text-align: center;
+    padding-top: 10px;
+    margin-left: 20px;
 }
 .banner-sub {
     color: #004cff;
@@ -91,14 +90,22 @@ body {
 }
 .banner-p {
     color: #797c83;
-    text-align: start;
 
 }
 .banner-item-title{
     color: #000000;
+
 }
 .banner-item-p {
     color: #797c83;
+
+}
+.iconbox {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    background-color: #317dee63;
+    border-radius: 50px;
 }
 
 /* -----------------------Content-----------------------*/
