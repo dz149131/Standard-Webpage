@@ -9,10 +9,7 @@ body {
     font-family: sans-serif;
     letter-spacing: .05em;
 }
-img {
-    width: 100%;
-    height: 100%;
-}
+
 
 /* -----------------------NAVBAR----------------------- */
 #navbarSupportedContent {
