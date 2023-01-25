@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
     letter-spacing: .05em;
 }
+img {
+    width: 100%;
+    height: 100%;
+}
 
 /* -----------------------NAVBAR----------------------- */
 #navbarSupportedContent {
@@ -120,9 +124,8 @@ body {
 /* -----------------------Content-----------------------*/
 #content {
     background-color: rgba(43, 177, 211, 0.589);
-}
-#content .container-fluid {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 .content-title {
     padding-top: 15%; 
@@ -138,9 +141,10 @@ body {
 /* -----------------------Services-----------------------*/
 #services {
     background-color: rgba(26, 45, 219, 0.507);
-    padding-top: 10%;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 .service-header {
     color: rgb(255, 255, 255);
@@ -161,6 +165,7 @@ body {
     box-shadow: var(--box-shadow);
     transition: all .5s ease;
     text-align: center;
+    padding-bottom: 10px;
 }
 .card-hover:hover {
     box-shadow: none;
@@ -174,5 +179,54 @@ body {
 
 /* -----------------------PROJECTS-----------------------*/
 #projects {
+    padding-top: 100px;
+}
+.projects-content {
+    text-align: center;
+}
+.projects-subhead {
+    color: #004cff;
+    text-transform: uppercase;
+}
+.projects-title {
+    color: #000000;
+}
+.projects-p {
+    color: #797c83;
+
+}
+.project {
+    position: relative;
+    overflow: hidden;
+}
+.project .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 84, 151, 0.75);
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0;
+}
+.project img {
+    transition: all .4s ease;
+}
+.project:hover .overlay{
+    opacity: 1;
+}
+.project:hover img {
+    transform: scale(1.1);
+}
+.project .overlay-content{
+
+}
+.project .overlay-title {
+    color: #ffffff;
     
+}
+.project .overlay-h6 {
+    color: #ffffff;
 }
