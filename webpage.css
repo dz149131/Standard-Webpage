@@ -193,7 +193,7 @@ img {
 }
 .projects-p {
     color: #797c83;
-
+    padding-bottom: 25px;
 }
 .project {
     position: relative;
@@ -210,9 +210,11 @@ img {
     display: flex;
     align-items: flex-end;
     opacity: 0;
+    transition: all .4s ease-in-out;
+
 }
 .project img {
-    transition: all .4s ease;
+    transition: all .4s ease-in-out;
 }
 .project:hover .overlay{
     opacity: 1;
