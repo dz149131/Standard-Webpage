@@ -44,8 +44,8 @@ body {
 }
 .coverRow {
     border-radius: 10px;
-    padding: 25% 5% 25% 5%;
-    background-color: rgba(32, 84, 151, 0.2);
+    padding: 25% 5% 10% 5%;
+    background-color: rgba(32, 84, 151, 0.75);
 }
 .cover::after {
     content: "";
@@ -56,6 +56,8 @@ body {
     left: 0;
     background-color: rgba(17, 73, 146, 0.25);
     z-index: -1;
+}
+.coverImg {
 }
 
 /* -----------------------BANNER-----------------------*/
@@ -68,6 +70,7 @@ body {
 }
 #banner {
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 .banner-img {
     background-image: url("webpageImgs/sampleImg.png");
@@ -78,13 +81,15 @@ body {
 .banner-content {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-left: 20px;
 }
 .banner-subhead {
     color: #004cff;
-    border-bottom: 1px #004cff groove ;
+    width: 25%;
+    border-bottom: 1px #004cff groove;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 .banner-title {
     color: #000000;
@@ -92,6 +97,9 @@ body {
 .banner-p {
     color: #797c83;
 
+}
+.banner-item:first-of-type {
+    padding-top: 10px;
 }
 .banner-item-title{
     color: #000000;
