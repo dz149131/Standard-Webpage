@@ -81,9 +81,10 @@ body {
     padding-top: 10px;
     margin-left: 20px;
 }
-.banner-sub {
+.banner-subhead {
     color: #004cff;
-
+    border-bottom: 1px #004cff groove ;
+    padding-bottom: 10px;
 }
 .banner-title {
     color: #000000;
@@ -163,4 +164,7 @@ body {
     color: black;
 }
 
-/* -----------------------TEST-----------------------*/
+/* -----------------------PROJECTS-----------------------*/
+#projects {
+    
+}
