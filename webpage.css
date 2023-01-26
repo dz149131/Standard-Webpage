@@ -10,25 +10,26 @@ body {
     letter-spacing: .05em;
 }
 
-
 /* -----------------------NAVBAR----------------------- */
 #navbarSupportedContent {
     justify-content: center;
 }
 .navbar {
-    border-bottom: 1px rgba(163, 163, 163, 0.425) solid;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-    background-color: rgb(241, 238, 238);
+    transition: all 0.75s;
 }
 .navbar-brand {
     width: 45px;
     height: 45px;
 }
-.navbar-nav li {
+.nav-item {
     padding: 0 10px;
 }
-.navbar-nav li a{
+.nav-link {
     text-align: center;
+}
+.navbar-scrolled {
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(241, 238, 238);
 }
 
 /*-----------------------COVER-----------------------  */
