@@ -151,6 +151,10 @@ body {
 .service-img {
     width: 80%;
 }
+.service-subhead {
+    color: #004cff;
+    text-transform: uppercase;
+}
 .service-title {
     padding-top: 5%; 
     color: white;
@@ -178,6 +182,7 @@ body {
 /* -----------------------PROJECTS-----------------------*/
 #projects {
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 .projects-content {
     text-align: center;
@@ -209,7 +214,6 @@ body {
     align-items: flex-end;
     opacity: 0;
     transition: all .4s ease-in-out;
-
 }
 .project img {
     transition: all .4s ease-in-out;
@@ -229,4 +233,31 @@ body {
 }
 .project .overlay-h6 {
     color: #ffffff;
+}
+
+/* -----------------------CONTACT-----------------------*/
+#contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-content {
+    text-align: center;
+}
+.contact-subhead {
+    color: #004cff;
+    text-transform: uppercase;
+}
+.contact-title {
+    color: #000000;
+}
+.contact-p {
+    color: #797c83;
+    padding-bottom: 25px;
+}
+form input.form-control {
+    height: 56px;
+}
+form .form-control {
+    border: transparent;
+    background-color: rgba(0,0,0,0.025);
 }
