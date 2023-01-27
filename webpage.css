@@ -8,11 +8,14 @@
 body {
     font-family: sans-serif;
     letter-spacing: .05em;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* -----------------------NAVBAR----------------------- */
 #navbarSupportedContent {
     justify-content: center;
+    width: 100%;
 }
 .navbar {
     transition: all 0.75s;
@@ -35,6 +38,7 @@ body {
 /*-----------------------COVER-----------------------  */
 #cover {
     background-color: rgba(238, 238, 238, 0.15);
+    width: 100%;
 }
 .cover {
     background-image: url("webpageImgs/cover.png");
@@ -73,6 +77,8 @@ body {
 #banner {
     padding-top: 100px;
     padding-bottom: 50px;
+    width: 100%;
+
 }
 .banner-img {
     background-image: url("webpageImgs/sampleImg.png");
@@ -124,6 +130,8 @@ body {
     background-color: rgba(43, 177, 211, 0.589);
     padding-top: 50px;
     padding-bottom: 100px;
+    width: 100%;
+
 }
 .content-title {
     padding-top: 15%; 
@@ -138,11 +146,13 @@ body {
 
 /* -----------------------Services-----------------------*/
 #services {
-    background-color: rgba(26, 45, 219, 0.507);
+    background-color: rgba(0, 26, 255, 0.5);
     padding-top: 100px;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
+    width: 100%;
+
 }
 .service-header {
     color: rgb(255, 255, 255);
@@ -183,6 +193,8 @@ body {
 #projects {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: rgba(236, 236, 236, 0.5);
+    width: 100%;
 }
 .projects-content {
     text-align: center;
@@ -229,7 +241,6 @@ body {
 }
 .project .overlay-title {
     color: #ffffff;
-    
 }
 .project .overlay-h6 {
     color: #ffffff;
@@ -239,6 +250,8 @@ body {
 #contact {
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100%;
+
 }
 .contact-content {
     text-align: center;
@@ -260,4 +273,48 @@ form input.form-control {
 form .form-control {
     border: transparent;
     background-color: rgba(0,0,0,0.025);
+}
+
+/* -----------------------FOOTER-----------------------*/
+#footer {
+    background-color: #2e3442;
+    width: 100%;
+}
+.footer-top {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: start;
+}
+.logo {
+    width: 150px;
+}
+.list-unstyle {
+    list-style: none;
+    padding: 0;
+}
+.list-unstyle li a{
+    text-decoration: none;
+}
+
+.footer-top a {
+    color: var(--body);
+}
+.footer-top a:hover {
+    color: white;
+}
+.footer-bottom {
+    background-color: #2e3442;
+}
+.footer-bottom img {
+    width: 30px;
+    margin: 0 5px 0 5px;
+}
+.footer-bottom a {
+    text-decoration: none;
+}
+.footer-bottom img:hover {
+    transform: scale(1.2)
+}
+.copyright {
+    color: rgb(121, 121, 121);
 }
