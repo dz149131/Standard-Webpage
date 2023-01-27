@@ -303,7 +303,9 @@ form .form-control {
     color: white;
 }
 .footer-bottom {
-    background-color: #2e3442;
+    background-color: #282d3a;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 .footer-bottom img {
     width: 30px;
