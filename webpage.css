@@ -76,9 +76,8 @@ body {
 }
 #banner {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
     width: 100%;
-
 }
 .banner-img {
     background-image: url("webpageImgs/sampleImg.png");
